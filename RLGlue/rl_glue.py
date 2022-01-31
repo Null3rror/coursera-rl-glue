@@ -36,7 +36,10 @@ class RLGlue:
         Returns:
             tuple: (state, action)
         """
-
+        
+        self.total_reward = 0.0
+        self.num_steps = 1
+        
         last_state = self.environment.env_start()
         self.last_action = self.agent.agent_start(last_state)
 
