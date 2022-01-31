@@ -5,5 +5,5 @@ This repo contains the `rl-glue` library used in the RL Specialization on [Cours
 ## Installation
 You can install this library via pip by running
 ```bash
-pip install git+https://github.com/Null3rror/coursera-rl-glue.git@0.1
+pip install git+https://github.com/Null3rror/coursera-rl-glue.git
 ```
